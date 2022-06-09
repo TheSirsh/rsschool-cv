@@ -1,1 +1,99 @@
-/* style.css */
+.bodyPref {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: red;
+    font-size: 20px;
+}
+
+.linkPanel {
+    margin-top: 20px;
+}
+
+.linkPanel ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.linkPanel li {
+    display: inline;
+    border-right: 1px solid red;
+    padding: 5px;
+
+}
+
+.linkPanel a {
+    color: red;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.linkPanel a:hover {
+    background-color: red;
+    color: black;
+}
+
+section {
+    border-bottom: 2px solid red;
+    padding-bottom: 25px;
+}
+
+table {
+    width: 100%;
+}
+
+.photo {
+    max-height: 150px;
+    height: 100%;
+    width: auto;
+    padding: 5px 15px 5px 0px;
+}
+
+.skillPanel ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.svgPict {
+    max-height: 150px;
+    height: 100%;
+    width: auto;
+    padding: 5px 15px 5px 0px;
+}
+
+.footerPanel {
+    padding-top: 10px;
+}
+
+.footerPanel ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footerPanel ul li {
+    max-height: 30px;
+    display: inline;
+    padding: 5px;
+}
+
+.footerPanel ul li img {
+    max-height: 125px;
+    height: 100%;
+    width: auto;
+    border: 5px solid black;
+}
+
+.footerPanel ul li img:hover {
+    border: 5px solid red;
+}
+
+.whiteLogo {
+    max-height: 125px;
+    background-color: white;
+}
