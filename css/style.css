@@ -59,11 +59,22 @@ table {
     padding: 0;
 }
 
-.svgPict {
-    max-height: 150px;
-    height: 100%;
-    width: auto;
-    padding: 5px 15px 5px 0px;
+.boldText {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.link {
+    color: red;
+}
+
+.link:visited {
+    color: orange;
+}
+
+.link:hover {
+    background-color: red;
+    color: black;
 }
 
 .footerPanel {
