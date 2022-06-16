@@ -1,0 +1,137 @@
+.travel {
+    background-image: url(../img/BackgroundBottom.jpg), url(../img/BackgroungTop.jpg);
+    background-position: bottom, top;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.box {
+    text-align: center;
+    color: #F2785C;
+    font-size: 40px;
+    margin: auto;
+}
+
+.flexHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2785C;
+    opacity: 70%;
+    border-bottom: 2px solid #0D606F;
+    width: 100vw;
+    height: 90px;
+    margin-bottom: 673px;
+}
+
+.logo {
+    width: 19%;
+    height: 33%;
+}
+
+nav {
+    width: 36.6%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: #FFFFFF;
+    align-items: center;
+    font-family: 'red-hat-text-v11-latin-ext-regular';
+}
+
+.navLink {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.buttonLogin {
+    color:#FFFFFF;
+    background-color: #0D606F;
+    border-radius: 12px;
+    border: 0px;
+    width: 103px;
+    height: 41px;
+    font-size: 16px;
+    font-family: 'red-hat-text-v11-latin-ext-regular';
+}
+
+.stepsFlex {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+}
+
+.stepsImage {
+    border: 25px solid #F2785C;
+    border-radius: 12px;
+    background-color: #F2785C;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stepsText {
+    font-size: 20px;
+    color: #0D606F;
+    font-family: 'Aleo', serif;
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.carouselImg {
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.selectors {
+    text-align: center;
+}
+
+.travelBox {
+    background-color: #FFFFFF;
+    opacity: 70%;
+}
+
+.travelFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #0D606F;
+    width: 72%;
+    font-size: 20px;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.travelImage {
+    float: left;
+}
+
+.travelLink {
+    color: #0D606F;
+}
+
+.buttonElse {
+    color:#FFFFFF;
+    background-color: #0D606F;
+    border-radius: 12px;
+    vertical-align:middle;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#FFFFFF;
+}
