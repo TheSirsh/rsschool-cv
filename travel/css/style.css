@@ -2,34 +2,34 @@
     background-image: url(../img/BackgroundBottom.jpg), url(../img/BackgroungTop.jpg);
     background-position: bottom, top;
     background-repeat: no-repeat, no-repeat;
+    margin: 0px;
 }
 
-.box {
-    text-align: center;
-    color: #F2785C;
-    font-size: 40px;
-    margin: auto;
-}
 
 .flexHeader {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #F2785C;
     opacity: 70%;
     border-bottom: 2px solid #0D606F;
-    width: 100vw;
     height: 90px;
-    margin-bottom: 673px;
+    margin-bottom: 756px;
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+    max-width: 1200px;
+
 }
 
 .logo {
     width: 19%;
     height: 33%;
+    opacity: 100%;
 }
 
 nav {
-    width: 36.6%;
+    width: 41%;
 }
 
 .navbar {
@@ -37,8 +37,10 @@ nav {
     justify-content: space-between;
     list-style: none;
     color: #FFFFFF;
+    font-size: 18px;
     align-items: center;
     font-family: 'red-hat-text-v11-latin-ext-regular';
+    padding: 0px;
 }
 
 .navLink {
@@ -50,17 +52,40 @@ nav {
     color:#FFFFFF;
     background-color: #0D606F;
     border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border: 0px;
     width: 103px;
     height: 41px;
     font-size: 16px;
-    font-family: 'red-hat-text-v11-latin-ext-regular';
+    opacity: 100%;
+}
+
+.title {
+    text-align: center;
+    color: #F2785C;
+    font-size: 40px;
+    margin: auto;
+    padding-bottom: 40px;
+    }
+
+.stepsBox {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
 }
 
 .stepsFlex {
     display: flex;
-    justify-content: space-between;
-    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
+    width: 82%;
+    margin-bottom: 85px;
+}
+
+.stepsFlexCell {
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .stepsImage {
@@ -68,14 +93,20 @@ nav {
     border-radius: 12px;
     background-color: #F2785C;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 2px auto auto 10px;
+    width: 50px;
+    height: 50px;
 }
 
 .stepsText {
     font-size: 20px;
     color: #0D606F;
     font-family: 'Aleo', serif;
+    margin-top: 30px;
+}
+
+.carouselBox {
+    margin: 0px auto 83px auto;
 }
 
 .carousel {
@@ -86,17 +117,51 @@ nav {
 }
 
 .carouselImg {
-    border-radius: 15px;
-    margin: 15px;
+    border-radius: 16px;
+    margin: 10px 30px 0px 30px;
+}
+
+.imageName {
+    position: relative;
+    left: 45px;
+    bottom: 87px;
+    color:#FFFFFF;
+    font-size: 32px;
 }
 
 .selectors {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+    position: relative;
+    bottom: 22px;
+}
+
+.circle1 {
+    background: #F2785C;
+    opacity: 50%;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #F2785C;
+    border-radius: 50%;
+}
+.circle2 {
+    background: #F2785C;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #F2785C;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .travelBox {
     background-color: #FFFFFF;
     opacity: 70%;
+    padding-bottom: 40px;
 }
 
 .travelFlex {
@@ -105,28 +170,60 @@ nav {
     justify-content: space-around;
     align-items: center;
     color: #0D606F;
-    width: 72%;
     font-size: 20px;
-    margin: auto;
+    margin-left: 120px;
+    margin-right: 120px;
     max-width: 1440px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.travelCell {
+    margin-bottom: 30px;
+    max-width: 1200px;
+    max-height: 250px;
+    font-size: 20px;
 }
 
 .travelImage {
     float: left;
+    margin-right: 40px;
+    padding: 0px;
+    margin-left:0px;
+}
+
+.mainStoryTitle {
+    font-size: 35px;
+    margin-top: 0px;
 }
 
 .travelLink {
     color: #0D606F;
+    font-weight: bold;
 }
 
 .buttonElse {
     color:#FFFFFF;
     background-color: #0D606F;
     border-radius: 12px;
-    vertical-align:middle;
+    vertical-align: middle;
     display: flex;
     align-items: center;
-    margin: auto;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+    width: 228px;
+    height: 59px;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+}
+
+.buttonText {
+    font-size: 15pt;
+    width: 116px;
+    height: 32;
 }
 
 .footerFlex {
@@ -134,4 +231,22 @@ nav {
     justify-content: space-around;
     align-items: center;
     color:#FFFFFF;
+    margin: 13px auto;
+}
+
+.footerSocFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.videoLink {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.videoArrow {
+    position: relative;
+    top: -7px;
+    left: 26px;
 }
