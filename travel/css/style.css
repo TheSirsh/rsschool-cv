@@ -14,12 +14,11 @@
     opacity: 70%;
     border-bottom: 2px solid #0D606F;
     height: 90px;
-    margin-bottom: 756px;
+    margin: 0px auto 756px auto;
     width: 100%;
     padding-left: 120px;
     padding-right: 120px;
     max-width: 1200px;
-
 }
 
 .logo {
@@ -70,17 +69,15 @@ nav {
 
 .stepsBox {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
+    margin: 0px auto;
+    max-width: 1440px;
 }
 
 .stepsFlex {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 82%;
-    margin-bottom: 85px;
+    margin: 0px 131px 85px 132px;
 }
 
 .stepsFlexCell {
@@ -114,6 +111,9 @@ nav {
     width: 100%;
     justify-content: space-around;
     overflow: hidden;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .carouselImg {
@@ -133,9 +133,7 @@ nav {
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 18px;
+    margin: 0px auto 18px auto;
     position: relative;
     bottom: 22px;
 }
@@ -162,6 +160,10 @@ nav {
     background-color: #FFFFFF;
     opacity: 70%;
     padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1440px;
 }
 
 .travelFlex {
@@ -171,11 +173,8 @@ nav {
     align-items: center;
     color: #0D606F;
     font-size: 20px;
-    margin-left: 120px;
-    margin-right: 120px;
-    max-width: 1440px;
+    margin: 40px 120px 0px 120px;
     text-align: left;
-    margin-top: 40px;
 }
 
 .travelCell {
@@ -231,7 +230,9 @@ nav {
     justify-content: space-around;
     align-items: center;
     color:#FFFFFF;
-    margin: 13px auto;
+    margin: 13px auto 0px auto;
+    width: 100%;
+    max-width: 1440px;
 }
 
 .footerSocFlex {
