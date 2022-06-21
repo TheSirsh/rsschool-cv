@@ -196,7 +196,7 @@ input::placeholder {
 .stepsImage {
     border: 25px solid #F2785C;
     border-radius: 16px;
-    background-color: #000000;
+    background-color: #F2785C;
     display: block;
     margin: auto;
     max-width: 50px;
