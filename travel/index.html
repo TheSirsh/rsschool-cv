@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
 </head>
 <body class="travel">
     <header class="flexHeader">
         <div>
             <p class="logo">
                 <img src="img/headerLogo.svg" alt="Logo">
+                <span class="logoText">Travel Portal</span>
             </p>
         </div>
         <nav>
             <ul class="navbar">
-                <li><a href="#" class="navLink">How it works</a></li>
-                <li><a href="#" class="navLink">Plan your trip</a></li>
-                <li><a href="#" class="navLink">Destination</a></li>
-                <li><a href="#" class="navLink">Travel stories</a></li>
+                <li><a href="#preview" class="navLink">How It Works</a></li>
+                <li><a href="#steps" class="navLink">Plan Your Trip</a></li>
+                <li><a href="#destinations" class="navLink">Destinations</a></li>
+                <li><a href="#stories" class="navLink">Travel Stories</a></li>
             </ul>
         </nav>
         <div>
@@ -27,30 +29,22 @@
         </div>
     </header>
     <main>
-        <section class="preview">
+        <section class="preview" id="preview">
             <h1 class="mainTitle">Explore the beauty of the World</h1>
             <p class="descSearchBar">Receive personalized recommendations for countries, hotels, activities and more</p>
             <form class="searchBox">
                 <input type="search" class="searchBar" name="q" placeholder="What would you like to do?" > 
                 <button type="submit" class="buttonSearch">Start Planning</button>
             </form>
-
-
         </section>
-
-
-
-
-
-
-       <section class="steps">
+       <section class="steps" id="steps">
         <h2 class="title">3 STEPS TO THE PERFECT TRIP</h2>
         <div class="stepsFlex">
             <div class="stepsFlexCell">
                 <img src="img/mainBike.svg" alt="Travel" class="stepsImage">
                 <p class="stepsText">Tell us what you want to do</p>
             </div>
-            <div class="stepsFlexCell">
+            <div class="stepsFlexCell unstandart">
                 <img src="img/mainCal.svg" alt="Calendar" class="stepsImage">
                 <p class="stepsText">Share us preferable dates</p>
             </div>
@@ -60,7 +54,7 @@
             </div>
         </div>
        </section>
-       <section class="destinations">
+       <section class="destinations" id="destinations">
         <h2 class="title">POPULAR DESTINATIONS</h2>
         <div class="carousel">
             <div>
@@ -77,16 +71,16 @@
             </div>
         </div>
         <div class="selectors">
-            <div class="circle1"></div>
-            <div class="circle2"></div>
-            <div class="circle1"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
         </div>
         <button class="buttonElse">
             <img src="img/mainArrow1.svg" alt="Arrow" class="arrow">
-            <p class="buttonText">Find More</p>
+            <span class="buttonText">Find More</span>
         </button>
        </section>
-       <section class="stories">
+       <section class="stories" id="stories">
         <h2 class="title">TRAVEL STORIES</h2>
         <div class="travelFlex">
             <div class="travelCell">
@@ -100,7 +94,7 @@
                 <img src="img/mainStory2.jpg" alt="Utah" class="travelImage">
                 <div>
                     <h3 class="mainStoryTitle">Canyonlands National Park, Utah</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br><a href="#" class="travelLink">Read More</a></p>
+                    <p class="travelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br><a href="#" class="travelLink">Read More</a></p>
                 </div>
             </div>
             <div class="travelCell">
@@ -120,27 +114,29 @@
         </div>    
         <button class="buttonElse">
             <img src="img/mainArrow2.svg" alt="Arrow" class="arrow">
-            <p class="buttonText">See More</p>
+            <span class="buttonText">See More</span>
         </button>
        </section>
-
     </main>
     <footer class="footerFlex">
+        <ul class="footerLink">
+            <li><a href="https://github.com/thesirsh"><img src="img/GitHubLogo.svg" alt="GitHub" class="resourseLink"></a></li>
+            <li><a href="https://rs.school/js-stage0/"><img src="img/RSSchholLogo.svg" alt="RSSchool" class="resourseLink"></a></li>
+        </ul>
         <div>
-            <img src="img/GitHubLogo.svg" alt="GitHub">
-            <img src="img/RSSchholLogo.svg" alt="RSSchool">
+            <p class="footerText">All Rights Reserved © Travel Portal</p>
         </div>
-        <div>
-            <p>All Rights Reserved © Travel Portal</p>
-        </div>
-        <div class="footerSocFlex">
-            <img src="img/footerInsta.svg" alt="Instagramm">
-            <div class="videoLink">
-                <img src="img/footerArrow.svg" alt="Video" class="videoArrow">
-                <img src="img/footelRect.svg" alt="Video" class="rect">
-            </div>
-            <img src="img/footerTwit.svg" alt="Twitter">
-        </div>
+        <ul class="footerSocFlex">
+            <li class="socLink"><a href="https://www.instagram.com/" ><img src="img/footerInsta.svg" alt="Instagramm" class="socLinkImage"></a></li>
+            <li class="socLink"><a href="https://www.youtube.com/">
+                    <div class="videoLink">
+                        <img src="img/footelRect.svg" alt="Video" class="rect">
+                        <img src="img/footerArrow.svg" alt="Video" class="videoArrow">
+                    </div>
+                </a>
+            </li>
+            <li class="socLink"><a href="https://twitter.com/"><img src="img/footerTwit.svg" alt="Twitter" class="socLinkImage"></a></li>
+        </ul>
     </footer>
 </body>
 </html>
