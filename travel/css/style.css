@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Magra:wght@700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.travel {
+    background-image: url(../img/BackgroundBottom.jpg), url(../img/BackgroungTop.jpg);
+    background-position: bottom, top;
+    background-repeat: no-repeat, no-repeat;
+    margin: 0px;
+}
+
+
+.flexHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    height: 90px;
+    margin: 0px auto 32px auto;
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+    max-width: 1200px;
+}
+
+.logo {
+    width: 19%;
+    height: 33%;
+    opacity: 100%;
+    display: inline;
+}
+
+.logoText {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Magra', sans-serif;
+}
+
+nav {
+    width: 50%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 0px;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.navLink {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 21px;
+    margin-left: 21px;
+}
+
+.navLink:hover {
+    color:#F2785C;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.buttonLogin {
+    color:#FFFFFF;
+    background-color: #0D606F;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px rgb(13, 96, 111, 0.16);
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+    border: 0px;
+    width: 103px;
+    height: 41px;
+    font-size: 16px;
+    opacity: 100%;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.buttonLogin:hover {
+    cursor: pointer;
+    color:#0D606F;
+    background-color: #FFFFFF;
+}
+
+.preview {
+    width: 62%;
+    max-width: 892px;
+    padding-right: 308px;
+    color: #FFFFFF;
+    font-family: 'Aleo', serif;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 266px;
+}
+
+
+.mainTitle {
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 31px;
+}
+
+.descSearchBar {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 46px;
+    font-family: 'Aleo', serif;
+}
+
+.searchBox {
+    width: 100%;
+    color: #F2785C;
+}
+.searchBar {
+    width: 100%;
+    height: 95px;
+    font-size: 24px;
+    font-style: italic;
+    padding-left: 41px;
+    border-radius: 16px;
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
+    color: #F2785C;
+    font-family: 'Aleo', serif;
+}
+
+input::placeholder {
+     color: #F2785C; 
+}
+
+.buttonSearch {
+    color:#FFFFFF;
+    background-color: #0D606F;
+    border-radius: 10px;
+    margin: 10px auto 0px auto;
+    width: 228px;
+    height: 59px;
+    font-size: 24px;
+    font-family: 'Red Hat Text', sans-serif;
+    box-shadow: 0px 2px 3px rgba(13, 96, 111, 0.16);
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08);
+    border: none;
+    position: relative;
+    top: -88px;
+    left: 647px;
+}
+
+.buttonSearch:hover {
+    background-color: #F2785C;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    color: #F2785C;
+    font-size: 40px;
+    margin: auto;
+    padding-bottom: 40px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: normal;
+    }
+
+.steps {
+    width: 100%;
+    margin: 0px auto;
+    max-width: 1440px;
+}
+
+.stepsFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 131px 97px 132px;
+}
+
+.stepsFlexCell {
+    max-height: 154px;
+}
+
+.unstandart {
+    margin-left: 71px;
+}
+
+.stepsImage {
+    border: 25px solid #F2785C;
+    border-radius: 16px;
+    background-color: #F2785C;
+    display: block;
+    margin: auto;
+    max-width: 50px;
+    height: 50px;
+    width: auto;
+}
+
+.stepsText {
+    font-size: 20px;
+    color: #0D606F;
+    font-family: 'Aleo', serif;
+    margin-top: 30px;
+}
+
+.destinations {
+    margin: 0px auto 79px auto;
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    overflow: hidden;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carouselImg {
+    border-radius: 16px;
+    margin: 5px 30px 0px 30px;
+}
+
+.imageName {
+    position: relative;
+    left: 45px;
+    bottom: 87px;
+    color:#FFFFFF;
+    font-size: 32px;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.selectors {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 18px auto;
+    position: relative;
+    bottom: 25px;
+
+}
+
+.circle {
+    background: #F2785C;
+    opacity: 50%;
+    width: 21px;
+    height: 21px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.circle:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.stories {
+    background: rgba(255, 255, 255, 0.7);
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.travelFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #0D606F;
+    font-size: 20px;
+    margin: 40px 120px 0px 120px;
+    text-align: left;
+    opacity: 200%;
+}
+
+.travelCell {
+    margin-bottom: 30px;
+    max-width: 1200px;
+    max-height: 250px;
+    font-size: 20px;
+    font-family: 'Aleo', serif;
+    opacity: 100%;
+}
+
+.travelImage {
+    float: left;
+    margin-right: 40px;
+    padding: 0px;
+    margin-left:0px;
+    box-shadow: 0px 4px 4px #0D606F;
+    border-radius: 16px;
+}
+
+.mainStoryTitle {
+    font-size: 35px;
+    margin-top: 0px;
+    font-family: 'Aleo', serif;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+.travelText {
+    font-size: 20px;
+    font-family: 'Aleo', serif;
+}
+
+.travelLink {
+    color: #0D606F;
+    font-weight: bold;
+}
+
+.buttonElse {
+    color:#FFFFFF;
+    background-color: #0D606F;
+    border-radius: 10px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    margin: 10px auto 0px auto;
+    width: 228px;
+    height: 59px;
+    box-shadow: 0px 2px 3px rgba(13, 96, 111, 0.16);
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08);
+}
+
+.buttonElse:hover {
+    cursor: pointer;
+    background-color: #F2785C;
+    box-shadow: 0px 2px 3px rgba(242, 120, 92, 0.16);
+}
+.arrow {
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.buttonText {
+    font-size: 24px;
+    width: 116px;
+    height: 32px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 31px;
+    margin-bottom: auto;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#FFFFFF;
+    margin: 15px auto 13px auto;
+    padding-left: 121px;
+    padding-right: 121px;
+    width: 100%;
+    max-width: 1198px;
+    height: 34px;
+}
+
+.footerLink {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+}
+
+.resourseLink {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 34px;
+    width: auto;
+}
+
+.resourseLink:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 6px #FFFFFF;
+}
+
+.footerText{
+    font-size: 16px;
+    font-family: 'Red Hat Text', sans-serif;
+    margin-left: 316px;
+    margin-right: 324px;
+}
+
+.footerSocFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    width: 141px;
+    height: 34px;
+}
+
+.socLink {
+    height: 34px;
+    width: 34px;
+}
+
+.socLink:hover {
+    box-shadow: 0px 0px 6px #FFFFFF;
+    cursor: pointer;
+}
+
+.socLinkImage {
+    height: 34px;
+    width: 34px;
+}
+
+.videoLink {
+    height: 34px;
+    width: 34px;
+}
+
+.rect {
+    height: 34px;
+    width: 33px;
+}
+
+.videoArrow {
+    position: relative;
+    height: 15px;
+    width: 14px;
+    top: -30px;
+    left: 10px
+}
